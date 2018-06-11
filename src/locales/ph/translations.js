@@ -1,11 +1,9 @@
 const resources = Object.assign({}, {
-    welcomeMessage: 'Hello world!',
-    welcomeMessage_plural: 'Hello worlds!'
-
+    welcomeMessage: 'Mabuhay buong mundo!'
 })
 
 const bundle = {
-    language: 'en',
+    language: 'ph',
     namespace: 'translations',
     resources
 }

@@ -3,12 +3,19 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^1.2.1",
+    "@material-ui/icons": "^1.1.0",
+    "classnames": "^2.2.6",
     "i18next": "^11.3.2",
     "i18next-browser-languagedetector": "^2.2.0",
     "i18next-xhr-backend": "^1.5.1",
+    "lodash": "^4.17.10",
+    "npm": "^6.1.0",
+    "prop-types": "^15.6.1",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
     "react-i18next": "^7.7.0",
+    "react-router-dom": "^4.3.1",
     "react-scripts": "1.1.4",
     "xmlhttprequest": "^1.8.0"
   },
@@ -17,5 +24,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-react-tools": "^1.2.5"
   }
 }

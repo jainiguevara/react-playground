@@ -1,18 +1,19 @@
-import React from 'react';
-import { I18n } from 'react-i18next';
+import React from 'react'
+import { I18n, Trans } from 'react-i18next'
 
-
-
-const I18nextView = () => {
-    return (
-        <I18n ns={ 'translations' }>
-            {
-                (T, { i18n, t, ready }) => (
-                    <h1>{t('welcomeMessage')}</h1>
+const I18nextView = () => (
+  <I18n ns={ 'translations' }>
+    {
+        (t, { i18n }) => (
+          <div>
+            <h1>{t('welcomeMessage')}</h1>
+            <p>
+              <Trans i18nKey="welcomeMessage_plural" />
+            </p>
+          </div>
                 )
             }
-        </I18n>
-    );
-}
+  </I18n>
+)
 
-export default I18nextView;
+export default I18nextView
